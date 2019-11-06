@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Professional Programming withCSharp\\Exam\\Exam1\\problem3\\problem3.csproj",
+      "projectUniqueName": "H:\\ProfessionalProgrammingwithCSharp\\Exam\\Exam1\\problem3\\problem3.csproj",
       "projectName": "problem3",
-      "projectPath": "H:\\Professional Programming withCSharp\\Exam\\Exam1\\problem3\\problem3.csproj",
+      "projectPath": "H:\\ProfessionalProgrammingwithCSharp\\Exam\\Exam1\\problem3\\problem3.csproj",
       "packagesPath": "C:\\Users\\ITtortoise\\.nuget\\packages\\",
-      "outputPath": "H:\\Professional Programming withCSharp\\Exam\\Exam1\\problem3\\obj\\",
+      "outputPath": "H:\\ProfessionalProgrammingwithCSharp\\Exam\\Exam1\\problem3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

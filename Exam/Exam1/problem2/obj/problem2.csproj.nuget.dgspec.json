@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\ProfessionalProgrammingwithCSharp\\Exam\\Exam1\\problem3\\problem3.csproj": {}
+    "H:\\Professional Programming withCSharp\\Exam\\Exam1\\Exam1\\problem2.csproj": {}
   },
   "projects": {
-    "H:\\ProfessionalProgrammingwithCSharp\\Exam\\Exam1\\problem3\\problem3.csproj": {
+    "H:\\Professional Programming withCSharp\\Exam\\Exam1\\Exam1\\problem2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\ProfessionalProgrammingwithCSharp\\Exam\\Exam1\\problem3\\problem3.csproj",
-        "projectName": "problem3",
-        "projectPath": "H:\\ProfessionalProgrammingwithCSharp\\Exam\\Exam1\\problem3\\problem3.csproj",
+        "projectUniqueName": "H:\\Professional Programming withCSharp\\Exam\\Exam1\\Exam1\\problem2.csproj",
+        "projectName": "problem2",
+        "projectPath": "H:\\Professional Programming withCSharp\\Exam\\Exam1\\Exam1\\problem2.csproj",
         "packagesPath": "C:\\Users\\ITtortoise\\.nuget\\packages\\",
-        "outputPath": "H:\\ProfessionalProgrammingwithCSharp\\Exam\\Exam1\\problem3\\obj\\",
+        "outputPath": "H:\\Professional Programming withCSharp\\Exam\\Exam1\\Exam1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
