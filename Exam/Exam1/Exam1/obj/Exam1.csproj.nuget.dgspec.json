@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\Professional Programming withCSharp\\Exam\\Exam1\\Exam1\\Exam1.csproj": {}
+  },
+  "projects": {
+    "H:\\Professional Programming withCSharp\\Exam\\Exam1\\Exam1\\Exam1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Professional Programming withCSharp\\Exam\\Exam1\\Exam1\\Exam1.csproj",
+        "projectName": "Exam1",
+        "projectPath": "H:\\Professional Programming withCSharp\\Exam\\Exam1\\Exam1\\Exam1.csproj",
+        "packagesPath": "C:\\Users\\ITtortoise\\.nuget\\packages\\",
+        "outputPath": "H:\\Professional Programming withCSharp\\Exam\\Exam1\\Exam1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ITtortoise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
