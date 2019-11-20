@@ -1,0 +1,11 @@
+H:\ProfessionalProgrammingwithCSharp\Exercise\Exercise2\Exercise2\bin\Debug\netcoreapp2.2\Exercise2.deps.json
+H:\ProfessionalProgrammingwithCSharp\Exercise\Exercise2\Exercise2\bin\Debug\netcoreapp2.2\Exercise2.runtimeconfig.json
+H:\ProfessionalProgrammingwithCSharp\Exercise\Exercise2\Exercise2\bin\Debug\netcoreapp2.2\Exercise2.runtimeconfig.dev.json
+H:\ProfessionalProgrammingwithCSharp\Exercise\Exercise2\Exercise2\bin\Debug\netcoreapp2.2\Exercise2.dll
+H:\ProfessionalProgrammingwithCSharp\Exercise\Exercise2\Exercise2\bin\Debug\netcoreapp2.2\Exercise2.pdb
+H:\ProfessionalProgrammingwithCSharp\Exercise\Exercise2\Exercise2\obj\Debug\netcoreapp2.2\Exercise2.csprojAssemblyReference.cache
+H:\ProfessionalProgrammingwithCSharp\Exercise\Exercise2\Exercise2\obj\Debug\netcoreapp2.2\Exercise2.csproj.CoreCompileInputs.cache
+H:\ProfessionalProgrammingwithCSharp\Exercise\Exercise2\Exercise2\obj\Debug\netcoreapp2.2\Exercise2.AssemblyInfoInputs.cache
+H:\ProfessionalProgrammingwithCSharp\Exercise\Exercise2\Exercise2\obj\Debug\netcoreapp2.2\Exercise2.AssemblyInfo.cs
+H:\ProfessionalProgrammingwithCSharp\Exercise\Exercise2\Exercise2\obj\Debug\netcoreapp2.2\Exercise2.dll
+H:\ProfessionalProgrammingwithCSharp\Exercise\Exercise2\Exercise2\obj\Debug\netcoreapp2.2\Exercise2.pdb
