@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\ProfessionalProgrammingwithCSharp\\Exercise\\Exercise2\\Exercise2\\Exercise2.csproj",
+      "projectUniqueName": "H:\\ProfessionalProgrammingwithCSharp\\Exercise\\InheritanceExercise\\Exercise2\\Exercise2.csproj",
       "projectName": "Exercise2",
-      "projectPath": "H:\\ProfessionalProgrammingwithCSharp\\Exercise\\Exercise2\\Exercise2\\Exercise2.csproj",
+      "projectPath": "H:\\ProfessionalProgrammingwithCSharp\\Exercise\\InheritanceExercise\\Exercise2\\Exercise2.csproj",
       "packagesPath": "C:\\Users\\ITtortoise\\.nuget\\packages\\",
-      "outputPath": "H:\\ProfessionalProgrammingwithCSharp\\Exercise\\Exercise2\\Exercise2\\obj\\",
+      "outputPath": "H:\\ProfessionalProgrammingwithCSharp\\Exercise\\InheritanceExercise\\Exercise2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

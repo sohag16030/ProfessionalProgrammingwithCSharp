@@ -4,33 +4,35 @@ using System.Text;
 
 namespace Exercise2
 {
-    public class Circle : Cylinder
+    public class Circle : Shape
     {
+        public double Height { get; set; }
+        public double Radius { get; set; }
         public Circle()
         {
-            Radius = 1.0;
-        
+            this.Radius = 1.0;
+
         }
         public Circle(double radius)
         {
-            Radius = radius;
-       
+            this.Radius = radius;
+
         }
         public Circle(double radius, string color, bool filled)
         {
-            Radius = radius;
-            Color = color;
-            Filled = filled;
+            this.Radius = radius;
+            this.Color = color;
+            this.Filled = filled;
         }
-       public override double GetArea()
+        private double GetArea()
         {
-            return 3.14 * Radius*Radius;
+            return 3.14 * Radius * Radius;
         }
-       public override double GetPerimeter()
+        private  double GetPerimeter()
         {
             return 2 * 3.14 * Radius;
         }
-        public override void  DisplayInfo()
+        public override void DisplayInfo()
         {
             Console.WriteLine($"Circle Radius is :{Radius}");
             Console.WriteLine($"Circle Color is :{Color}");

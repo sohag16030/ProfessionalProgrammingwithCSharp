@@ -4,41 +4,37 @@ using System.Text;
 
 namespace Exercise2
 {
-    public class Cylinder
+    public class Cylinder : Circle
     {
-       public double Height { get; set; }
-       public double Radius { get; set; }
-       public string Color { get; set; }
-       public bool Filled { get; set; }
         public Cylinder()
         {
-            Height = 1.0;
+            this.Height = 1.0;
         }
         public Cylinder(double height)
         {
-           Height = height;
+            this.Height = height;
         }
         public Cylinder(double height, double radius)
         {
-            Height = height;
-            Radius = radius;
+            this.Height = height;
+            this.Radius = radius;
         }
         public Cylinder(double height, double radius, string color, bool filled)
         {
-            Height = height;
-            Radius = radius;
-            Color = color;
-            Filled = filled;
+            this.Height = height;
+            this.Radius = radius;
+            this.Color = color;
+            this.Filled = filled;
         }
-       public virtual double GetArea()
+        private double GetArea()
         {
             return 2 * 3.14 * Radius * (Height + Radius);
         }
-       public virtual double GetPerimeter()
+        private double GetPerimeter()
         {
             return 2 * 3.14 * Radius;
         }
-        public virtual void  DisplayInfo()
+        public override void DisplayInfo()
         {
             Console.WriteLine($"Cylinder Hieght is :{Height}");
             Console.WriteLine($"Cylinder Radius is :{Radius}");

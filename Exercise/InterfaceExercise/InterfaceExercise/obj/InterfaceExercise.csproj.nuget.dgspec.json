@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ITtortoise\\source\\repos\\InterfaceExercise\\InterfaceExercise\\InterfaceExercise.csproj": {}
+    "H:\\ProfessionalProgrammingwithCSharp\\Exercise\\InterfaceExercise\\InterfaceExercise\\InterfaceExercise.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ITtortoise\\source\\repos\\InterfaceExercise\\InterfaceExercise\\InterfaceExercise.csproj": {
+    "H:\\ProfessionalProgrammingwithCSharp\\Exercise\\InterfaceExercise\\InterfaceExercise\\InterfaceExercise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ITtortoise\\source\\repos\\InterfaceExercise\\InterfaceExercise\\InterfaceExercise.csproj",
+        "projectUniqueName": "H:\\ProfessionalProgrammingwithCSharp\\Exercise\\InterfaceExercise\\InterfaceExercise\\InterfaceExercise.csproj",
         "projectName": "InterfaceExercise",
-        "projectPath": "C:\\Users\\ITtortoise\\source\\repos\\InterfaceExercise\\InterfaceExercise\\InterfaceExercise.csproj",
+        "projectPath": "H:\\ProfessionalProgrammingwithCSharp\\Exercise\\InterfaceExercise\\InterfaceExercise\\InterfaceExercise.csproj",
         "packagesPath": "C:\\Users\\ITtortoise\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ITtortoise\\source\\repos\\InterfaceExercise\\InterfaceExercise\\obj\\",
+        "outputPath": "H:\\ProfessionalProgrammingwithCSharp\\Exercise\\InterfaceExercise\\InterfaceExercise\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

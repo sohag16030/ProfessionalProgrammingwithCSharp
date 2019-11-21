@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Exercise2
 {
-    public class Rectangle : Square
+    public class Rectangle : Shape
     {
-       public double Width { get; set; }
-       public double Length { get; set; }
+        public double Width { get; set; }
+        public double Length { get; set; }
 
         public Rectangle()
         {
@@ -19,18 +19,18 @@ namespace Exercise2
             Width = width;
             Length = length;
         }
-        public Rectangle(double width, double length, string color,bool filled)
+        public Rectangle(double width, double length, string color, bool filled)
         {
             Width = width;
             Length = length;
             Color = color;
             Filled = filled;
         }
-        public override double GetArea()
+        private double GetArea()
         {
             return 2 * 3.14 * Length * (Width + Length);
         }
-        public override double GetPerimeter()
+        private double GetPerimeter()
         {
             return 2 * 3.14 * Length;
         }

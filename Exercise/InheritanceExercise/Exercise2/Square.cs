@@ -4,34 +4,28 @@ using System.Text;
 
 namespace Exercise2
 {
-    public class Square
+    public class Square : Rectangle
     {
-       public double Side { get; set; }
-       public string Color { get; set; }
-       public bool Filled { get; set; }
-        public Square()
-        {
-            
-        }
+        public double Side { get; set; }
         public Square(double side)
         {
-            Side = side;
+            this.Side = side;
         }
-        public Square(double side, string color,bool fillded)
+        public Square(double side, string color, bool fillded)
         {
-            Side = side;
-            Color = color;
-            Filled = Filled;
+            this.Side = side;
+            this.Color = color;
+            this.Filled = Filled;
         }
-        public virtual double GetArea()
+        private double GetArea()
         {
-            return Side*Side;
+            return Side * Side;
         }
-        public virtual double GetPerimeter()
+        private double GetPerimeter()
         {
-            return 4*Side;
+            return 4 * Side;
         }
-        public virtual void DisplayInfo()
+        public override void DisplayInfo()
         {
             Console.WriteLine($"Square Side is :{Side}");
             Console.WriteLine($"Square Color is :{Color}");
