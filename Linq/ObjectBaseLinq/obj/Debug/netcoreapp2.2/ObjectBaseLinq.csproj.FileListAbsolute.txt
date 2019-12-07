@@ -1,0 +1,11 @@
+H:\ProfessionalProgrammingwithCSharp\Linq\ObjectBaseLinq\bin\Debug\netcoreapp2.2\ObjectBaseLinq.deps.json
+H:\ProfessionalProgrammingwithCSharp\Linq\ObjectBaseLinq\bin\Debug\netcoreapp2.2\ObjectBaseLinq.runtimeconfig.json
+H:\ProfessionalProgrammingwithCSharp\Linq\ObjectBaseLinq\bin\Debug\netcoreapp2.2\ObjectBaseLinq.runtimeconfig.dev.json
+H:\ProfessionalProgrammingwithCSharp\Linq\ObjectBaseLinq\bin\Debug\netcoreapp2.2\ObjectBaseLinq.dll
+H:\ProfessionalProgrammingwithCSharp\Linq\ObjectBaseLinq\bin\Debug\netcoreapp2.2\ObjectBaseLinq.pdb
+H:\ProfessionalProgrammingwithCSharp\Linq\ObjectBaseLinq\obj\Debug\netcoreapp2.2\ObjectBaseLinq.csprojAssemblyReference.cache
+H:\ProfessionalProgrammingwithCSharp\Linq\ObjectBaseLinq\obj\Debug\netcoreapp2.2\ObjectBaseLinq.csproj.CoreCompileInputs.cache
+H:\ProfessionalProgrammingwithCSharp\Linq\ObjectBaseLinq\obj\Debug\netcoreapp2.2\ObjectBaseLinq.AssemblyInfoInputs.cache
+H:\ProfessionalProgrammingwithCSharp\Linq\ObjectBaseLinq\obj\Debug\netcoreapp2.2\ObjectBaseLinq.AssemblyInfo.cs
+H:\ProfessionalProgrammingwithCSharp\Linq\ObjectBaseLinq\obj\Debug\netcoreapp2.2\ObjectBaseLinq.dll
+H:\ProfessionalProgrammingwithCSharp\Linq\ObjectBaseLinq\obj\Debug\netcoreapp2.2\ObjectBaseLinq.pdb

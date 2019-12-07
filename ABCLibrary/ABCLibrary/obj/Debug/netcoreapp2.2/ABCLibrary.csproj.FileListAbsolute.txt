@@ -1,0 +1,11 @@
+H:\ProfessionalProgrammingwithCSharp\ABCLibrary\ABCLibrary\bin\Debug\netcoreapp2.2\ABCLibrary.deps.json
+H:\ProfessionalProgrammingwithCSharp\ABCLibrary\ABCLibrary\bin\Debug\netcoreapp2.2\ABCLibrary.runtimeconfig.json
+H:\ProfessionalProgrammingwithCSharp\ABCLibrary\ABCLibrary\bin\Debug\netcoreapp2.2\ABCLibrary.runtimeconfig.dev.json
+H:\ProfessionalProgrammingwithCSharp\ABCLibrary\ABCLibrary\bin\Debug\netcoreapp2.2\ABCLibrary.dll
+H:\ProfessionalProgrammingwithCSharp\ABCLibrary\ABCLibrary\bin\Debug\netcoreapp2.2\ABCLibrary.pdb
+H:\ProfessionalProgrammingwithCSharp\ABCLibrary\ABCLibrary\obj\Debug\netcoreapp2.2\ABCLibrary.csprojAssemblyReference.cache
+H:\ProfessionalProgrammingwithCSharp\ABCLibrary\ABCLibrary\obj\Debug\netcoreapp2.2\ABCLibrary.csproj.CoreCompileInputs.cache
+H:\ProfessionalProgrammingwithCSharp\ABCLibrary\ABCLibrary\obj\Debug\netcoreapp2.2\ABCLibrary.AssemblyInfoInputs.cache
+H:\ProfessionalProgrammingwithCSharp\ABCLibrary\ABCLibrary\obj\Debug\netcoreapp2.2\ABCLibrary.AssemblyInfo.cs
+H:\ProfessionalProgrammingwithCSharp\ABCLibrary\ABCLibrary\obj\Debug\netcoreapp2.2\ABCLibrary.dll
+H:\ProfessionalProgrammingwithCSharp\ABCLibrary\ABCLibrary\obj\Debug\netcoreapp2.2\ABCLibrary.pdb

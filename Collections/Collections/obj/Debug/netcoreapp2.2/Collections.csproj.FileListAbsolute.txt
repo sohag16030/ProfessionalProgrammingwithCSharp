@@ -1,0 +1,11 @@
+H:\ProfessionalProgrammingwithCSharp\Collections\Collections\bin\Debug\netcoreapp2.2\Collections.deps.json
+H:\ProfessionalProgrammingwithCSharp\Collections\Collections\bin\Debug\netcoreapp2.2\Collections.runtimeconfig.json
+H:\ProfessionalProgrammingwithCSharp\Collections\Collections\bin\Debug\netcoreapp2.2\Collections.runtimeconfig.dev.json
+H:\ProfessionalProgrammingwithCSharp\Collections\Collections\bin\Debug\netcoreapp2.2\Collections.dll
+H:\ProfessionalProgrammingwithCSharp\Collections\Collections\bin\Debug\netcoreapp2.2\Collections.pdb
+H:\ProfessionalProgrammingwithCSharp\Collections\Collections\obj\Debug\netcoreapp2.2\Collections.csprojAssemblyReference.cache
+H:\ProfessionalProgrammingwithCSharp\Collections\Collections\obj\Debug\netcoreapp2.2\Collections.csproj.CoreCompileInputs.cache
+H:\ProfessionalProgrammingwithCSharp\Collections\Collections\obj\Debug\netcoreapp2.2\Collections.AssemblyInfoInputs.cache
+H:\ProfessionalProgrammingwithCSharp\Collections\Collections\obj\Debug\netcoreapp2.2\Collections.AssemblyInfo.cs
+H:\ProfessionalProgrammingwithCSharp\Collections\Collections\obj\Debug\netcoreapp2.2\Collections.dll
+H:\ProfessionalProgrammingwithCSharp\Collections\Collections\obj\Debug\netcoreapp2.2\Collections.pdb

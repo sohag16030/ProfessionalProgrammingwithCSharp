@@ -1,0 +1,11 @@
+H:\ProfessionalProgrammingwithCSharp\Exercise\GenericsExample\GenericsExample\bin\Debug\netcoreapp2.2\GenericsExample.deps.json
+H:\ProfessionalProgrammingwithCSharp\Exercise\GenericsExample\GenericsExample\bin\Debug\netcoreapp2.2\GenericsExample.runtimeconfig.json
+H:\ProfessionalProgrammingwithCSharp\Exercise\GenericsExample\GenericsExample\bin\Debug\netcoreapp2.2\GenericsExample.runtimeconfig.dev.json
+H:\ProfessionalProgrammingwithCSharp\Exercise\GenericsExample\GenericsExample\bin\Debug\netcoreapp2.2\GenericsExample.dll
+H:\ProfessionalProgrammingwithCSharp\Exercise\GenericsExample\GenericsExample\bin\Debug\netcoreapp2.2\GenericsExample.pdb
+H:\ProfessionalProgrammingwithCSharp\Exercise\GenericsExample\GenericsExample\obj\Debug\netcoreapp2.2\GenericsExample.csprojAssemblyReference.cache
+H:\ProfessionalProgrammingwithCSharp\Exercise\GenericsExample\GenericsExample\obj\Debug\netcoreapp2.2\GenericsExample.csproj.CoreCompileInputs.cache
+H:\ProfessionalProgrammingwithCSharp\Exercise\GenericsExample\GenericsExample\obj\Debug\netcoreapp2.2\GenericsExample.AssemblyInfoInputs.cache
+H:\ProfessionalProgrammingwithCSharp\Exercise\GenericsExample\GenericsExample\obj\Debug\netcoreapp2.2\GenericsExample.AssemblyInfo.cs
+H:\ProfessionalProgrammingwithCSharp\Exercise\GenericsExample\GenericsExample\obj\Debug\netcoreapp2.2\GenericsExample.dll
+H:\ProfessionalProgrammingwithCSharp\Exercise\GenericsExample\GenericsExample\obj\Debug\netcoreapp2.2\GenericsExample.pdb

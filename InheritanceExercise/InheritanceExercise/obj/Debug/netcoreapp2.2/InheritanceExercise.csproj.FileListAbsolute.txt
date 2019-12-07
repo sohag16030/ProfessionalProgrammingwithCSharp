@@ -1,0 +1,11 @@
+H:\ProfessionalProgrammingwithCSharp\Exercise\InheritanceExercise\InheritanceExercise\bin\Debug\netcoreapp2.2\InheritanceExercise.deps.json
+H:\ProfessionalProgrammingwithCSharp\Exercise\InheritanceExercise\InheritanceExercise\bin\Debug\netcoreapp2.2\InheritanceExercise.runtimeconfig.json
+H:\ProfessionalProgrammingwithCSharp\Exercise\InheritanceExercise\InheritanceExercise\bin\Debug\netcoreapp2.2\InheritanceExercise.runtimeconfig.dev.json
+H:\ProfessionalProgrammingwithCSharp\Exercise\InheritanceExercise\InheritanceExercise\bin\Debug\netcoreapp2.2\InheritanceExercise.dll
+H:\ProfessionalProgrammingwithCSharp\Exercise\InheritanceExercise\InheritanceExercise\bin\Debug\netcoreapp2.2\InheritanceExercise.pdb
+H:\ProfessionalProgrammingwithCSharp\Exercise\InheritanceExercise\InheritanceExercise\obj\Debug\netcoreapp2.2\InheritanceExercise.csprojAssemblyReference.cache
+H:\ProfessionalProgrammingwithCSharp\Exercise\InheritanceExercise\InheritanceExercise\obj\Debug\netcoreapp2.2\InheritanceExercise.csproj.CoreCompileInputs.cache
+H:\ProfessionalProgrammingwithCSharp\Exercise\InheritanceExercise\InheritanceExercise\obj\Debug\netcoreapp2.2\InheritanceExercise.AssemblyInfoInputs.cache
+H:\ProfessionalProgrammingwithCSharp\Exercise\InheritanceExercise\InheritanceExercise\obj\Debug\netcoreapp2.2\InheritanceExercise.AssemblyInfo.cs
+H:\ProfessionalProgrammingwithCSharp\Exercise\InheritanceExercise\InheritanceExercise\obj\Debug\netcoreapp2.2\InheritanceExercise.dll
+H:\ProfessionalProgrammingwithCSharp\Exercise\InheritanceExercise\InheritanceExercise\obj\Debug\netcoreapp2.2\InheritanceExercise.pdb

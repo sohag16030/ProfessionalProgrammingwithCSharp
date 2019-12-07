@@ -1,0 +1,11 @@
+H:\Professional Programming withCSharp\Exam\Exam1\problem4\bin\Debug\netcoreapp2.2\problem4.deps.json
+H:\Professional Programming withCSharp\Exam\Exam1\problem4\bin\Debug\netcoreapp2.2\problem4.runtimeconfig.json
+H:\Professional Programming withCSharp\Exam\Exam1\problem4\bin\Debug\netcoreapp2.2\problem4.runtimeconfig.dev.json
+H:\Professional Programming withCSharp\Exam\Exam1\problem4\bin\Debug\netcoreapp2.2\problem4.dll
+H:\Professional Programming withCSharp\Exam\Exam1\problem4\bin\Debug\netcoreapp2.2\problem4.pdb
+H:\Professional Programming withCSharp\Exam\Exam1\problem4\obj\Debug\netcoreapp2.2\problem4.csprojAssemblyReference.cache
+H:\Professional Programming withCSharp\Exam\Exam1\problem4\obj\Debug\netcoreapp2.2\problem4.csproj.CoreCompileInputs.cache
+H:\Professional Programming withCSharp\Exam\Exam1\problem4\obj\Debug\netcoreapp2.2\problem4.AssemblyInfoInputs.cache
+H:\Professional Programming withCSharp\Exam\Exam1\problem4\obj\Debug\netcoreapp2.2\problem4.AssemblyInfo.cs
+H:\Professional Programming withCSharp\Exam\Exam1\problem4\obj\Debug\netcoreapp2.2\problem4.dll
+H:\Professional Programming withCSharp\Exam\Exam1\problem4\obj\Debug\netcoreapp2.2\problem4.pdb
