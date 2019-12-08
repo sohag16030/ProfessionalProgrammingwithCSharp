@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -66,7 +67,7 @@ namespace ObjectBaseLinq
 
             //}
 
-            //var result = CourseList.Where(x => x.Name == "ASP.NET");
+            //var result = CourseList.Where(x =>x.Name=="ASP.NET");
 
             //foreach (var item in result)
             //{
@@ -75,15 +76,22 @@ namespace ObjectBaseLinq
             //        Console.WriteLine(stu.Name);
             //    }
             //}
-            var result = CourseList.Where(x => x.Name == "C#");
-
-            foreach (var item in result)
+            var CSharp = CourseList.Where(x => x.Name == "C#").ToList();
+            var ASP = CourseList.Where(x => x.Name == "ASP.NET").ToList();
+            var fullList = new List<Course>();
+            fullList.AddRange(CSharp);
+            fullList.AddRange(ASP);
+            var StuList = new Dictionary<string,int>();
+            foreach (var item in fullList)
             {
                 foreach (var stu in item.Students)
                 {
-                   
+                    StuList.Add(stu.Name, stu.Roll);
                 }
             }
+            foreach (var item in StuList.Keys)
+                Console.WriteLine("key =" + item);
+            
 
 
 

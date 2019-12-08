@@ -7,6 +7,7 @@ namespace ABCLibrary
     public class BorrowBook
     {
         public string BookCode { get; set; }
-        public int BorrowBookQuantity { get; set; }
+        public int BorrowBookQuantity { get; set; }       
+        
     }
 }

@@ -7,7 +7,7 @@ namespace ABCLibrary
     public class ReturnBook
     {
         public string BookCode { get; set; }
-        public int ReturnBookQuantity {get;set;}
-        
+        public int ReturnBookQuantity { get;set;}       
+
     }
 }

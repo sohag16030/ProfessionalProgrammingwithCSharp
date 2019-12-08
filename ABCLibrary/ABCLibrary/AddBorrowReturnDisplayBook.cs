@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace ABCLibrary
 {
     public class AddBorrowReturnDisplayBook
     {
-        List<Book> BookList =new List<Book>();
-        public void BookAddition()
+        
+        public void BookAddition(List<Book> BookList)
         {
+            
             var book = new Book();
 
             Console.Write("Book Code:");
@@ -18,45 +20,58 @@ namespace ABCLibrary
             Console.Write("Book Author:");
             book.BookAuthor = (Console.ReadLine());
             Console.Write("Add Stock:");
-            book.AddStock=int.Parse(Console.ReadLine());
-            
+            book.Stock=int.Parse(Console.ReadLine());           
             BookList.Add(book);
-            Console.WriteLine(BookList.Count);
+            Console.WriteLine("Successfully Book Added in Library");
         }
-        //public void BookBorrow()
-        //{
-        //    var borrowbook = new BorrowBook();
-        //    Console.Write("Book Code:");
-        //    borrowbook.BookCode = Console.ReadLine();
-        //    Console.Write("Borrow Book Quantity:");
-        //    borrowbook.BorrowBookQuantity =int.Parse(Console.ReadLine());
-        //    List<BorrowBook> BorrowBookList = new List<BorrowBook>();
-        //    BorrowBookList.Add(borrowbook);
-
-        //}
-        //public void BookReturn()
-        //{
-        //    var returnbook = new ReturnBook();
-        //    Console.Write("Book Code:");
-        //    returnbook.BookCode = Console.ReadLine();
-        //    Console.Write("Return Book Quantity");
-        //    returnbook.ReturnBookQuantity = int.Parse(Console.ReadLine());
-        //    List<ReturnBook> ReturnBookList = new List<ReturnBook>();
-        //    ReturnBookList.Add(returnbook);
-
-        //}
-        public void DisplayBook()
+        public void BookBorrow(List<Book> BookList)
         {
-            
-            //Console.WriteLine("Code Name Author Remaining Stock");
+            var borrowbook = new BorrowBook();
+            Console.Write("Book Code:");
+            borrowbook.BookCode = Console.ReadLine();
+            Console.Write("Borrow Book Quantity:");
+            borrowbook.BorrowBookQuantity = int.Parse(Console.ReadLine());
 
-            //foreach (Book items in BookList)
-            //{
-            //    Console.WriteLine(items.BookCode);
-
-            //}
+            var borrowbookrecord = BookList.Single(x => x.BookCode == borrowbook.BookCode);
+            if (borrowbookrecord.Stock >= borrowbook.BorrowBookQuantity)
+            {
+                borrowbookrecord.Stock -= borrowbook.BorrowBookQuantity;
+                Console.WriteLine("Successfully Book Borrowed from Library");
+            }
+            else
+                Console.WriteLine("Sorry given quantity is not available in stock");
 
         }
-        
+        public void BookReturn(List<Book> BookList)
+        {
+            var returnbook = new ReturnBook();
+            Console.Write("Book Code:");
+            returnbook.BookCode = Console.ReadLine();
+            Console.Write("Return Book Quantity :");
+            returnbook.ReturnBookQuantity = int.Parse(Console.ReadLine());
+
+            var returnbookrecord = BookList.Single(x => x.BookCode == returnbook.BookCode);
+            returnbookrecord.Stock +=returnbook.ReturnBookQuantity;
+            Console.WriteLine("Successfully Book returned to Library");
+
+        }
+        public void DisplayBook(List<Book> BookList)
+        {
+            Console.WriteLine("Code Name Author Remaining Stock");
+
+            foreach (Book items in BookList)
+            {
+                Console.Write(items.BookCode);
+                Console.Write(" ");
+                Console.Write(items.BookName);
+                Console.Write(" ");
+                Console.Write(items.BookAuthor);
+                Console.Write(" ");
+                Console.Write(items.Stock);
+                Console.WriteLine(" ");
+            }
+
+        }
+
     }
 }
