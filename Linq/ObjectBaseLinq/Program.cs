@@ -81,16 +81,16 @@ namespace ObjectBaseLinq
             var fullList = new List<Course>();
             fullList.AddRange(CSharp);
             fullList.AddRange(ASP);
-            var StuList = new Dictionary<string,int>();
+            var StuList = new HashSet<string>();
             foreach (var item in fullList)
             {
                 foreach (var stu in item.Students)
                 {
-                    StuList.Add(stu.Name, stu.Roll);
+                    StuList.Add(stu.Name);
                 }
             }
-            foreach (var item in StuList.Keys)
-                Console.WriteLine("key =" + item);
+            foreach (var item in StuList)
+                Console.WriteLine(item);
             
 
 
