@@ -119,35 +119,36 @@ namespace ADO.NET_crude_
     }
         public void BookReturn()
         {
-            Console.Write("Book Code:");
-            string bookCode = Console.ReadLine();
-            Console.Write("Borrow Book Quantity:");
-            int returnBookQuantity = int.Parse(Console.ReadLine());
-            List<Book> ReturnBookRecord = new List<Book>();
-            string sql = "select * from BookList where BookCode='" + bookCode + "'";
-            using (var connection = new SqlConnection(connectionString))
-            {
-
-                using (var command = new SqlCommand(sql, connection))
+                Console.Write("Book Code:");
+                string bookCode = Console.ReadLine();
+                Console.Write("Return Book Quantity:");
+                int returnBookQuantity = int.Parse(Console.ReadLine());
+                List<Book> ReturnBookRecord = new List<Book>();
+                string sql = "select * from BookList where BookCode='" + bookCode + "'";
+                using (var connection = new SqlConnection(connectionString))
                 {
 
-                    connection.Open();
-                    using (var reader = command.ExecuteReader())
+                    using (var command = new SqlCommand(sql, connection))
                     {
-                        while (reader.Read())
+
+                        connection.Open();
+                        using (var reader = command.ExecuteReader())
                         {
-                            string bookcode = reader["BookCode"].ToString();
-                            string bookname = reader["BookName"].ToString();
-                            string bookauthor = reader["BookAuthor"].ToString();
-                            int bookstock = int.Parse(reader["Stock"].ToString());
-                            Book book = new Book(bookcode, bookname, bookauthor, bookstock);
-                            ReturnBookRecord.Add(book);
+                            while (reader.Read())
+                            {
+                                string bookcode = reader["BookCode"].ToString();
+                                string bookname = reader["BookName"].ToString();
+                                string bookauthor = reader["BookAuthor"].ToString();
+                                int bookstock = int.Parse(reader["Stock"].ToString());
+                                Book book = new Book(bookcode, bookname, bookauthor, bookstock);
+                                ReturnBookRecord.Add(book);
+                            }
+
                         }
 
                     }
-
                 }
-            }
+           
 
                 string Sql = "update BookList set Stock=@stock where BookCode=@bookcode";
                 using (var connection = new SqlConnection(connectionString))
