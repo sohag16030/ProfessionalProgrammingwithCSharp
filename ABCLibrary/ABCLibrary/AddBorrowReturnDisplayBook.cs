@@ -50,7 +50,7 @@ namespace ABCLibrary
             Console.Write("Return Book Quantity :");
             returnbook.ReturnBookQuantity = int.Parse(Console.ReadLine());
 
-            var returnbookrecord = BookList.Single(x => x.BookCode == returnbook.BookCode);
+            var returnbookrecord = BookList.Where(x => x.BookCode == returnbook.BookCode).FirstOrDefault();
             returnbookrecord.Stock +=returnbook.ReturnBookQuantity;
             Console.WriteLine("Successfully Book returned to Library");
 
